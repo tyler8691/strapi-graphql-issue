@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_navs",
+  "info": {
+    "name": "Header Nav",
+    "description": "A navigation within a header widget."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

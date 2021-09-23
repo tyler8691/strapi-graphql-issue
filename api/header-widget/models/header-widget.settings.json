@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_widgets",
+  "info": {
+    "name": "Header Widget",
+    "description": "A header navigation widget."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Navs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.nav-selector"
+    }
+  }
+}

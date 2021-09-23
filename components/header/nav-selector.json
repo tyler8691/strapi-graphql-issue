@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_header_nav_selectors",
+  "info": {
+    "name": "Nav Selector",
+    "icon": "hand-point-right",
+    "description": "Component with a single relationship field that acts as a pointer to an entry of the Header Navs collection."
+  },
+  "options": {},
+  "attributes": {
+    "Nav": {
+      "model": "header-nav"
+    }
+  }
+}
